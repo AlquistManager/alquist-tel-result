@@ -1,0 +1,34 @@
+body {
+    font-family: TriviaSeznam, "Arial CE", Arial, "Helvetica CE", Helvetica, helvetica, sans-serif;
+}
+
+#name {
+    color: #dc1f27;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+#params{
+    font-size: 17px;
+    padding-left: 0px;
+    margin-left: 12px;
+    line-height: 2;
+}

@@ -9,13 +9,28 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container-fluid">
-    <p id="name"></p>
-    <p id="price"></p>
-    <p id="url"></p>
-    <p id="image"></p>
-</div>
+<a id="url" href="www.seznam.cz" target="_blank">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-sm-3">
+                <img id="image" class="img-responsive">
+            </div>
+
+            <div class="col-sm-9">
+                <h1 id="name"></h1>
+                <h2 id="price"></h2>
+                <ul id="params">
+                    <li id="param0"></li>
+                    <li id="param1"></li>
+                    <li id="param2"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</a>
 </body>
 </html>
