@@ -10,7 +10,7 @@ $(document).ready(function () {
     $("#price").text("od "+price+" Kč");
     $("#name").text(name);
     $("#image").attr("src",image);
-    $("#url").attr("href",url);
+    //$("#url").attr("href",url);
     $("#param0").text(param0);
     $("#param1").text(param1);
     $("#param2").text(param2);
